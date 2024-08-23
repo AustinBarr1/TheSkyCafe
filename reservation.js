@@ -1,7 +1,7 @@
 const button = document.querySelector("#homepagebutton");
 
 button.addEventListener('click', () => {
-    location.href='skycafe.html'
+    location.href='index.html'
 });
 
 const button2 = document.querySelector("#reservationpagebutton");
