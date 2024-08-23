@@ -5,9 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const orderInfo = JSON.parse(localStorage.getItem('OrderInfo'));
 
     if (orderInfo) {
-        // Clear previous table data
-        orderTable.innerHTML = '';
-
         // Create table headers
         const headers = ['Name', 'Classroom Number', 'Phone Extension', 'Lunch Period', 'Entree', 'Side', 'Drink', 'Dessert'];
         const headerRow = document.createElement('tr');
